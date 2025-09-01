@@ -52,5 +52,48 @@ console.log(input.id); // my_id
 input.type="password";  // type will be password 
 input.className="class2";
 input.id="only_id";
+// checking and removing attributes 
+ const input1= document.querySelector("#input_one")
+ console.log(input1);
+ if(input1.hasAttribute("name")){
+    console.log("it has a name attribute")
+ }else{
+    console.log("it does not has an a name attribute")
+ }
+ // checking the value of an attribute 
+ if(input1.getAttribute("name")== "nimcan"){
+    console.log("nimcaan is the value")
+ }else{
+console.log("Nimcaan is not a value ")
+ }
+ // also you can use has attributes 
+const h3 = document.getElementsByTagName("h3");
+if(h3.hasAttributes){
+    console.log("it has an attribute")
+}else{
+    console.log("it does not have any attribute")
+}
+// remove attribute 
+input1.removeAttribute("name")
+console.log(input1)
+// setting and adding content inside html file 
+const paragraphp=document.querySelector("p");
+// set 
+paragraphp.textContent="Somliland has intitution last 38 years ";
+console.log(paragraphp.textContent)
+
+// setting using inner html 
+const president = document.getElementById("president");
+president.innerHTML = '<p>The president of Somaliland is Abdirahman Iro</p>';
+
+// using value to track your value 
+const my_email=document.getElementById("nimcaan_id");
+console.log(my_email.value);
+// tracking 
+my_email.value="kinaajkiij@gmail.com";
+console.log(my_email.value); // tracked and changed
+
+
+
 
 

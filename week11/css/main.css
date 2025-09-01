@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+div.card {
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px #00000033;
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  margin: 10px 0px;
+  padding: 15px;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.light {
+  background: #ededed;
+}
+
+.light p {
+  color: #6366f1;
+}
+
+.light h2 {
+  color: #010222;
+  padding: 10px;
+}
+
+.dark {
+  background: #0e1217;
+  color: #6366f1;
+}
+
+.dark h2 {
+  color: #6366f1;
+  padding: 10px;
+}
+
+.dark p {
+  color: #e8e8ff;
+}
+
+.card button {
+  width: 50%;
+  height: 35px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  margin: 10px 0px;
+  border: solid 1.5px #6366f1;
+  color: #6366f1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
