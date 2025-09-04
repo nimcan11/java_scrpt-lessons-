@@ -1,0 +1,40 @@
+.Active{
+   font-size: 16px;
+   background-color: blue;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.red{
+   background-color: red;
+   color: #fff;
+   font-size: 14px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul{
+   padding: 0px;
+   margin: 5px 10px;
+}
+li{
+   padding: 5px;
+   list-style: none;
+   font-size: 13px;
+   cursor: pointer;
+
+}
+li.active{
+   background-color: #3663f1;
+   display: inline-block;
+   height: 20px;
+   width: 200px;
+   border: 1px solid #FFF;
+
+}
+span{
+   display: none;
+}
+span.Active{
+   background-color: yellow;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+}
