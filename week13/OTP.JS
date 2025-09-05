@@ -17,8 +17,8 @@ inputs.forEach((input,index)=>{
           input.blur();     
      let go =  myindex = index - 1;
     // so when he found index that has go varaibale got that index  and make it focus
-//   myindex <= 3 ? inputs[go].focus():"";
-  myindex >=0 && inputs[go].focus();  // you can use thisbecouse there is not another face 
+  myindex <= 3 ? inputs[go].focus():"";
+  // myindex >=0 && inputs[go].focus();  // you can use thisbecouse there is not another face 
        }
     })
 })
