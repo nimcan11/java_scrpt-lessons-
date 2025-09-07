@@ -1,0 +1,96 @@
+  /* 🔹 Base style (common to all buttons) */
+    .btn {
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+      margin: 10px;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+      opacity: 0.9;
+    }
+
+    .btn:active {
+      transform: scale(0.95);
+    }
+
+    /* 🔹 Primary button */
+    .btn-primary {
+      background: linear-gradient(135deg, #ff4e50, #f9d423);
+    }
+
+    /* 🔹 Alert button */
+    .btn-alert {
+      background: linear-gradient(135deg, #9e4eff, #d2b316);
+    }
+
+    /* 🔹 Success button */
+    .btn-success {
+      background: linear-gradient(135deg, #28a745, #85e085);
+    }
+    .btn-close{
+        background: linear-gradient(135deg, #4e6dcb, #bcff6b);
+    }
+
+    /* 🔹 Danger button */
+    .btn-danger {
+      background: linear-gradient(135deg, #dc3545, #ff6b6b);
+    }
+    /* body{
+      width: 900px;
+      height: 800px;
+    } */
+    .close{
+         color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+      margin: 10px;
+         background: linear-gradient(135deg, #ff4e50, #f9d423);
+   
+    }
+    .open{
+            color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+      margin: 10px;
+           background: linear-gradient(135deg, #28a745, #85e085);
+    }
+    .service{
+      background-color: #28a745;
+      height: 400px;
+    }
+       .about{
+      background-color: #283fa7;
+      height: 400px;
+    }
+       .contact{
+      background-color: #a72831;
+      height: 400px;
+    }
+    .kudho{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    
