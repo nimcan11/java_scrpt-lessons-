@@ -77,13 +77,5 @@ btn_alert.forEach((button) => {
 //        console.log(`waxaad mareysaa:${count++}`)
 // },2000)
 
-// scroll to 
 
-let scroll=()=>{
-    scrollTo(0,100)
-};
-scroll()
-
-console.log(scrollX)
-console.log(scrollY)
 

@@ -11,3 +11,12 @@ let count = 1;
 window.addEventListener("scroll",()=>{
     console.log(scrollY);
 })
+
+
+// let scroll=()=>{
+//     scrollTo(0,100)
+// };
+// scroll()
+
+// console.log(scrollX)
+// console.log(scrollY)
