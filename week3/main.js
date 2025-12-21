@@ -53,3 +53,36 @@ let follow = "200000folowers";
 // 
 const parsefolow = parseInt(follow);
 console.log(parsefolow);
+
+// lesson four  methods 
+//number methods 
+const tiro = " 123 "
+const tiro_num= Number(tiro);
+console.log(tiro_num);
+console.log(Number(tiro));
+
+// Inan method 
+const age=21;
+const name = "Dhago";
+console.log(isNaN(age)) // false 
+console.log(isNaN(name)); // tue 
+
+// Round method 
+console.log(Math.round(9.87)); // 10
+// floor mthod 
+console.log(Math.floor(12.9))
+
+// ceil method 
+console.log(Math.ceil(13.6)) //14
+console.log(Math.ceil(12.2)) //12 
+
+// trunc method
+console.log(Math.trunc(45.67))//45
+// power method 
+console.log(Math.pow(20,2)) // 400
+// min method 
+console.log(Math.min(1,2,3,4,7,8,90,)); //1 
+console.log(Math.max(12,87616,3,5,6,)) //87616
+
+// random method 
+console.log(Math.random(12,1,12,4,5,6,))// we cant predict
