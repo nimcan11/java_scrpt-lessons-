@@ -86,3 +86,32 @@ console.log(Math.max(12,87616,3,5,6,)) //87616
 
 // random method 
 console.log(Math.random(12,1,12,4,5,6,))// we cant predict
+
+
+// Access string using index
+const name1 = "Nimcaan";
+console.log(name1[2]) //m
+// instaed of squre bracket you can char at 
+console.log(name1.charAt(0)) //n
+// length 
+console.log(name1.length);
+// includes string method 
+let text = "i wanna to be software developer in 2026 insha allah";
+console.log(text.includes("insha allah")) // it reurn boolean true
+// index of 
+console.log(text.indexOf("w"))
+
+// last inedx of - starts the last when making indexing 
+console.log(text.lastIndexOf("e")) //
+let text4= "my name";
+console.log(text4.slice(-4))//
+
+// slice without minus 
+console.log(text4.slice(0,3)) //my
+// substring mehod 
+console.log(text4.sub(1,4))//
+
+// trim method removes spacing 
+let teacher = "  jamhhuri  "
+console.log(teacher);
+console.log(teacher.trim())
