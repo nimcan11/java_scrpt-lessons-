@@ -8,28 +8,31 @@ console.log(text2.replaceAll("somali","British")) // i can speak British because
 const text3="habits are often no diffreneces until you cross crictical thresholds and you unlock new levels of performance";
 console.log(text3.split())
 // concat method 
-text5="Mr";
-text6="Proggrammer";
+const text5="Mr";
+const text6="Proggrammer";
 console.log(text5.concat((" "),text6));  //Mr Proggrammer
 
 // chain methiod (parseFloat + toFixed examples)
 const views = "20000.12 viewers";
 const parsed = parseFloat(views);               // 20000.12 (number)
 
-// toFixed returns a string with the given number of decimals
-console.log(parsed.toFixed(2));                 // "20000.12" (string)
+// conditions
+let price = 12;
+let descount = true;
+let descount_am = 4;
 
-// convert back to number if needed
-console.log(Number(parsed.toFixed(2)));         // 20000.12 (number)
-console.log(+parsed.toFixed(2));                // 20000.12 (number)
+if(descount == true){
+    price = price - descount_am;
+    console.log(`Total:$${price}`)
+}
 
-// Example: scale down to 2000 (divide by 10) and round
-const scaled = Math.round(parsed / 10);         // 2000 (number)
-console.log(scaled);                            // 2000
 
-// Alternative: truncate instead of round
-const truncated = Math.trunc(parsed / 10);      // 2000 (number)
-console.log(truncated);                         // 2000
-
-// Format to 0 decimals (returns string, rounded)
-console.log(parsed.toFixed(0));                 // "20000"
+// elseif examples 
+let waqtiga = 12;
+if (waqtiga < 10) {
+    console.log("subax wanaagsan");
+} else if (waqtiga < 17) {
+    console.log("duhur wanaagsan");
+} else {
+    console.log("Fiid wanaagsan");
+}
