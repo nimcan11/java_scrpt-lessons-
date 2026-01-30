@@ -62,4 +62,15 @@ if(typeof dad[i] == "string"){
         
     }
 
-    
+    const Students = ["warda", "xasan", "Maxamad", "Mukhtaar", "Laki"];
+let highSchoolSubjects = ["Mathematics", "Physics", "Biology", "Chemistry"];
+
+for(let i=0;i<Students.length;i++){
+ console.log(`--${Students[i]}--`);
+ for(let x=0;x<highSchoolSubjects.length;x++){
+    console.log(highSchoolSubjects[x])
+}
+}
+
+
+
