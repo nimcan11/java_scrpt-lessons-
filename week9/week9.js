@@ -7,5 +7,16 @@ const names=["Jaamac","Ali","Khaalid"];
 const waaweyne = names.map(num => num.toUpperCase());
 console.log(waaweyne)
 
+// filter method 
+const even_num =num.filter((num) =>{
+    return  num % 2===0;
+})
+console.log(even_num);
 
+// display only those who have start a 
+const magacaan =["Nimcaan","ayaaan","khaalid","Fatima","caaisha"];
+const ku_bilaabma_a =magacaan.filter((magac)=>{
+    magac.startsWith("a");
+})
+console.log(ku_bilaabma_a);
 
