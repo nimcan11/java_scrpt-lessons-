@@ -50,3 +50,13 @@ const last_ex_red=last_ex.reduce((qabte,jooge)=>{
   return qabte + jooge;
 },5);
 console.log(last_ex_red);
+
+  console.log("**for each **".repeat(5))
+// For each method 
+const fruits =["lemon","Orange","Avaacado","rumaan"];
+const fruits_for_each = fruits.forEach((element)=>{
+  // return element;
+
+  console.log(element)
+})
+// console.log(fruits_for_each);
