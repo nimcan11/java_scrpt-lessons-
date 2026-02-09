@@ -1,6 +1,8 @@
 // the map method 
 const num =[1,2,3,4,5,6,34,56,78,12];
-const double = num.map(num=>num*2);
+const double = num.map((num)=>{
+  return num * 2 ;
+})
 console.log(double);
 
 const names=["Jaamac","Ali","Khaalid"];
@@ -34,3 +36,10 @@ const total = digits.reduce(function(accu, current,index){
 console.log("Final result:", total);
 
 // console.log(myreduce_digits)
+
+// reduce example 
+const tirooyin=[1,2,3,4];
+const sum = tirooyin.reduce((total)=>{
+  return total + 1  ;
+},0)
+console.log(sum);
