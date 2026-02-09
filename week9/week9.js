@@ -43,3 +43,10 @@ const sum = tirooyin.reduce((total)=>{
   return total + 1  ;
 },0)
 console.log(sum);
+
+// last example of reduce 
+const last_ex =[20,30,10,5];
+const last_ex_red=last_ex.reduce((qabte,jooge)=>{
+  return qabte + jooge;
+},5);
+console.log(last_ex_red);
