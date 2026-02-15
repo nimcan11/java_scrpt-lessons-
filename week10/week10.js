@@ -72,3 +72,14 @@ const clubs={
   }
 }
 console.log(clubs.Leliga.Barcelona);
+
+// Array object this how modern objects works 
+const Students=[
+  {id:1,name:"Nimcaan",shcool:"Noradin"},
+    {id:2,name:"Jaamaca",shcool:"Noradin"},
+      {id:3,name:"Khaalid",shcool:"Nan"},
+        {id:4,name:"Fatima",shcool:"Ileys"},
+          {id:5,name:"Ipado",shcool:"Elem"},
+            {id:7,name:"Najma",shcool:"slaama"},
+];
+console.log(Students[4].name) // ipdao
