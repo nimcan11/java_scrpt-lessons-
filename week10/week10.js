@@ -37,3 +37,38 @@ const Calculator={
 
 }
 console.log(Calculator.sum())
+
+// Nested object inside another objects 
+
+const profile={
+ Name:"Nimcan Abdi Mohomed",
+ contact:{
+  phone:633467231,
+  facebook:"httpsnimcanabdi",
+ },
+ status:{
+  Ismarried:false,
+  Issingle:true
+ }
+}
+console.log(profile.contact.phone); ///633467231
+
+// Example two nested objects in js 
+const clubs={
+  premier_ligue:{
+    London:"Chelsea,arsenal,Totengham",
+    Manchester:"Manchester city,Manunited",
+    Liverpool:"LFC,everton"
+  },
+  Leliga:{
+    Madrid:"rael madrid , Atletico madrid valenecia",
+    Barcelona:"BFC,GETAFE",
+    Sevila:"Seviall, mooji"
+  },
+    ligue1:{
+    Madrid:"rael madrid , Atletico madrid valenecia",
+    Barcelona:"BFC,GETAFE",
+    Sevila:"Seviall, mooji"
+  }
+}
+console.log(clubs.Leliga.Barcelona);
