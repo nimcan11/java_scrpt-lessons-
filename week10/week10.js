@@ -83,3 +83,15 @@ const Students=[
             {id:7,name:"Najma",shcool:"slaama"},
 ];
 console.log(Students[4].name) // ipdao
+
+
+// Create an array called cart.
+// Put 3 objects inside it. Each object should have a productName and a price.
+// Bonus Challenge: Use the reduce method you learned earlier to calculate the total price of all items in the cart.
+const cart=[
+  {product_name:"Tablet",price:240},
+    {product_name:"labtop",price:300},
+      {product_name:"hidisk",price:100},
+        {product_name:"iphone",price:240},
+];
+console.log(cart[2].product_name);
