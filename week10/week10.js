@@ -95,3 +95,4 @@ const cart=[
         {product_name:"iphone",price:240},
 ];
 console.log(cart[2].product_name);
+// total price of items 
