@@ -19,3 +19,8 @@ console.log(paragraph);
 // is not an array it is an object we check using type of 
 console.log(typeof paragraph);
 console.log(Array.isArray(paragraph)); // false 
+
+// the modern way using website 
+const input1 = document.querySelector("#input_one");
+console.log(input1);
+
