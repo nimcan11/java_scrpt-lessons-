@@ -24,3 +24,10 @@ console.log(Array.isArray(paragraph)); // false
 const input1 = document.querySelector("#input_one");
 console.log(input1);
 
+// accsesing elements 
+const paragraph1=document.querySelector(".som");
+console.log(paragraph1.textContent);
+paragraph1.textContent="Somaliland has instititions last 35 years";
+console.log(paragraph1.textContent);
+
+
