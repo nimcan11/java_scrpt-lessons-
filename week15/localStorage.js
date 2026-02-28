@@ -5,3 +5,8 @@
 localStorage.setItem("Username","Nimcan")
 // setting storage as array 
 localStorage.setItem("Names",["Nimcaan","Fatima","Raxma"])
+
+// getting item \
+// use get item to use values you store your local storage 
+const User = localStorage.getItem("Username");
+console.log(User);
