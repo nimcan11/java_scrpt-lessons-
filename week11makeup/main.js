@@ -11,3 +11,5 @@ console.log(my_name.textContent);
 const input = document.querySelector("input");
 console.log(input);
 console.log(input.getAttribute("type"))
+// settong attributes 
+input.setAttribute("class","Username")
