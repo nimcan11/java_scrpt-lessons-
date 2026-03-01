@@ -9,3 +9,8 @@ console.log(typeof clubs);
 const clubstostring = JSON.stringify(clubs);
 console.log(clubstostring);
 console.log(typeof clubstostring)
+
+// Json.parse to convertstring into an object 
+const clubstoparse = JSON.parse(clubstostring);
+console.log(clubstoparse);
+console.log(typeof clubstoparse);
