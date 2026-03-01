@@ -10,3 +10,14 @@ localStorage.setItem("Names",["Nimcaan","Fatima","Raxma"])
 // use get item to use values you store your local storage 
 const User = localStorage.getItem("Username");
 console.log(User);
+
+// Use remove item to remove key and values you store it 
+localStorage.removeItem("Names")
+
+// Use clear all your data 
+// localStorage.clear()
+
+// sessin storage 
+sessionStorage.setItem("Status","single");
+const status1 = sessionStorage.getItem("Status");
+console.log(status1);
