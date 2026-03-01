@@ -21,3 +21,6 @@ localStorage.removeItem("Names")
 sessionStorage.setItem("Status","single");
 const status1 = sessionStorage.getItem("Status");
 console.log(status1);
+
+//clear
+// sessionStorage.clear()
