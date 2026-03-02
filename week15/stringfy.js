@@ -14,3 +14,11 @@ console.log(typeof clubstostring)
 const clubstoparse = JSON.parse(clubstostring);
 console.log(clubstoparse);
 console.log(typeof clubstoparse);
+
+const cars = [
+  { make: "Toyota", model: "Corolla", year: 2022 },
+  { make: "Tesla", model: "Model 3", year: 2021 },
+  { make: "Ford", model: "Mustang", year: 1969 }
+];
+const cars_to_string = JSON.stringify(cars);
+console.log(typeof cars_to_string);
