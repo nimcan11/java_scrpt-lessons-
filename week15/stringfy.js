@@ -35,3 +35,5 @@ const mobiles=[
 ];
 let mobiles_to_string = JSON.stringify(mobiles);
 console.log(typeof mobiles_to_string); // string 
+
+// setting local storage 
