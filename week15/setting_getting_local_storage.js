@@ -7,3 +7,12 @@ const proggraming_languages = [
 localStorage.setItem("Proggraming_languages",JSON.stringify(proggraming_languages));
 const save_data = localStorage.getItem("Proggraming_languages");
 console.log(save_data);
+
+// example two setting and getting local storage 
+const Fatima_subjects = [
+    {Science:"Biology",prep:true,textbook:true,prepare:false,year:2026},
+    {Science:"physics",prep:false,textbook:false,prepare:false,year:2026},
+    {Science:"maths",prep:true,textbook:true,prepare:false,year:2026},
+    {Science:"Biology",prep:false,textbook:true,prepare:false,year:2026}
+];
+console.log(Fatima_subjects[2].prepare)
