@@ -21,4 +21,9 @@ console.log(Fatima_subjects[2].prepare); // false
 localStorage.setItem("Student",JSON.stringify(Fatima_subjects));
 const keen_xogta = localStorage.getItem("Student")
 console.log(keen_xogta);
-console.log( typeof keen_xogta)
+
+// back to object 
+
+const ku_celi_object = JSON.parse(keen_xogta);
+console.log(ku_celi_object[1].Science);
+
