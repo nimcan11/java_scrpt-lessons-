@@ -27,3 +27,4 @@ console.log(keen_xogta);
 const ku_celi_object = JSON.parse(keen_xogta);
 console.log(ku_celi_object[1].Science);
 
+
