@@ -46,7 +46,15 @@ const countries = [
 ];
 
 // data destruction 
-const [{name,stability,country_loc}]=countries[2];
+const [{name,stability,country_loc}]=countries;
 console.log(name);
 console.log(country_loc);
 console.log(stability);
+
+// if i wanna to display all others 
+countries.forEach(({name,stability,country_loc})=>{
+console.log(name);
+console.log(stability);
+console.log(country_loc);
+console.log("---")
+})
