@@ -58,3 +58,21 @@ console.log(stability);
 console.log(country_loc);
 console.log("---")
 })
+
+// data destruction example three 
+const clothes = [
+  {Name:"Surwaal",Type:"dharhooose",Midab:"Madaw"},
+    {Name:"shaadh",Type:"dharsare",Midab:"cadaan"},
+      {Name:"Shoort",Type:"dharhooose",Midab:"None"},
+        {Name:"cumaamad",Type:"sharsare",Midab:"Madaw"},
+          {Name:"suuun",Type:"dhardhexe",Midab:"Madaw"},
+];
+
+// data destruction 
+const [{Name,Type,Midab}]=clothes;
+clothes.forEach(({Name,Type,Midab})=>{
+  console.log(Name);
+  console.log(Type);
+  console.log(Midab);
+  console.log("**".repeat(4))
+})
