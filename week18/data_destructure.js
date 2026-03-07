@@ -74,5 +74,5 @@ clothes.forEach(({Name,Type,Midab})=>{
   console.log(Name);
   console.log(Type);
   console.log(Midab);
-  console.log("**".repeat(4))
+  console.log("##".repeat(4))
 })
